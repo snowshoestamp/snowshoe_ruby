@@ -1,0 +1,1 @@
+require 'snowshoe_ruby'

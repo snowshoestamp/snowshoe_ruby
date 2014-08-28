@@ -1,10 +1,11 @@
 require "snowshoe_ruby/version"
 require "snowshoe_ruby/client"
+require "snowshoe_ruby/config"
 
 module SnowshoeRuby
-	#client = Client.new('5bc9c3ddf1f46265e03a', '70a99aa7f4de7f48f235215ce2708b6e4f19377c')
+	client = Client.new(APP_KEY, APP_SECRET)
 
-  @callback_url = "http://10.99.114.161/:3000/stamp_info"
+  @callback_url = CALLBACK_URL
   @data = {"data" => params["data"]}
 
   @consumer = OAuth::Consumer.new(
