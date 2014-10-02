@@ -30,6 +30,8 @@ config/snowshoe.yml
 In your callback controller
 
 	SnowshoeRuby.stamp(params)
+	# or
+	redirect_to SnowshoeRuby.stamp_url
 
 ## Contributing
 
