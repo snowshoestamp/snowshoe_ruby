@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+config/snowshoe.yml
+
+	development:
+	  secret: yoursecret
+	  key: yourkey
+	  callback_url: http://yourdomain.com/showshoe
+
+In your callback controller
+
+	SnowshoeRuby.stamp(params)
 
 ## Contributing
 
