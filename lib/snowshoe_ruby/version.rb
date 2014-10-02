@@ -1,3 +1,3 @@
 module SnowshoeRuby
-  VERSION = "0.0.2.beta"
+  VERSION = "1.0.0"
 end
