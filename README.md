@@ -16,7 +16,7 @@ gem install snowshoe
 
 On instantiation of the Snowshoe client, pass in your SNOWSHOE_APP_KEY & SNOWSHOE_APP_SECRET, respectively.
 
-Currently, all posts are made to v2 of the API at http://beta.snowshoestamp.com/v2/stamp.
+Currently, all posts are made to v2 of the API at http://beta.snowshoestamp.com/api/v2/stamp.
 
 The data hash is constructed from the point data sent by your front-end stamp screen.
 
